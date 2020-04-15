@@ -1,0 +1,16 @@
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab(easy)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -1,0 +1,9 @@
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\bin\Debug\GraphicMaker.exe.config
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\bin\Debug\GraphicMaker.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\bin\Debug\GraphicMaker.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.Form1.resources
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.Properties.Resources.resources
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.csproj.GenerateResource.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\GraphicMaker\GraphicMaker\obj\Debug\GraphicMaker.csprojAssemblyReference.cache

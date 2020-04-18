@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+  math32.cpp
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.cpp(13,1): warning C4273: f: несовместимое связывание dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.h(12,30): message : см. предыдущее определение "f"
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.cpp(68,1): warning C4273: find_factor: несовместимое связывание dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.h(9,28): message : см. предыдущее определение "find_factor"
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.cpp(106,1): warning C4273: get_tlit_angle: несовместимое связывание dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.h(14,30): message : см. предыдущее определение "get_tlit_angle"
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.cpp(112,1): warning C4273: get_factor_b: несовместимое связывание dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Win32Dll\math32.h(17,30): message : см. предыдущее определение "get_factor_b"
+  Создание кода...
+     Создается библиотека C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Debug\Win32Dll.lib и объект C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Debug\Win32Dll.exp
+  Win32Dll.vcxproj -> C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\4_lab\Win32Dll\Debug\Win32Dll.dll

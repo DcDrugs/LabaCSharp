@@ -1,0 +1,11 @@
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.exe
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.deps.json
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.runtimeconfig.json
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.runtimeconfig.dev.json
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\bin\Debug\netcoreapp3.1\RationalRepresentation.pdb
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\obj\Debug\netcoreapp3.1\RationalRepresentation.csprojAssemblyReference.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\obj\Debug\netcoreapp3.1\RationalRepresentation.AssemblyInfoInputs.cache
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\obj\Debug\netcoreapp3.1\RationalRepresentation.AssemblyInfo.cs
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\obj\Debug\netcoreapp3.1\RationalRepresentation.dll
+C:\Users\MortalBlock\Desktop\Учеба\2 sem\ИСП\7_lab\RationalRepresentation\RationalRepresentation\obj\Debug\netcoreapp3.1\RationalRepresentation.pdb

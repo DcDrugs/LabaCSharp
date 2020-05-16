@@ -12,17 +12,14 @@ namespace RationalRepresentation
 
         private int _devidend;
         private int _divider;
-        private double _quotient;
 
         public int GetDevidend() { return _devidend; }
-        public int Divider() { return _divider; }
-        public double Quotient() { return _quotient; }
+        public int GetDivider() { return _divider; }
 
         public Rational(int devidend, int divider)
         {
             _devidend = devidend;
             _divider = (divider > 0) ? divider : throw new Exception("Число должно быть натуральным!");
-            _quotient = _devidend / _divider;
             Rational temp = FractionReduction(this);
         }
        
@@ -41,52 +38,52 @@ namespace RationalRepresentation
 
         byte IConvertible.ToByte(IFormatProvider provider)
         {
-            return Convert.ToByte(_quotient);
+            return Convert.ToByte((double)(_devidend) / (double)(_divider));
         }
 
         char IConvertible.ToChar(IFormatProvider provider)
         {
-            return Convert.ToChar(_quotient);
+            return Convert.ToChar((double)(_devidend) / (double)(_divider));
         }
 
         DateTime IConvertible.ToDateTime(IFormatProvider provider)
         {
-            return Convert.ToDateTime(_quotient);
+            return Convert.ToDateTime((double)(_devidend) / (double)(_divider));
         }
 
         decimal IConvertible.ToDecimal(IFormatProvider provider)
         {
-            return Convert.ToDecimal(_quotient);
+            return Convert.ToDecimal((double)(_devidend) / (double)(_divider));
         }
 
         double IConvertible.ToDouble(IFormatProvider provider)
         {
-            return _quotient;
+            return (double)(_devidend) / (double)(_divider);
         }
 
         short IConvertible.ToInt16(IFormatProvider provider)
         {
-            return Convert.ToInt16(_quotient);
+            return Convert.ToInt16((double)(_devidend) / (double)(_divider));
         }
 
         int IConvertible.ToInt32(IFormatProvider provider)
         {
-            return Convert.ToInt32(_quotient);
+            return Convert.ToInt32((double)(_devidend) / (double)(_divider));
         }
 
         long IConvertible.ToInt64(IFormatProvider provider)
         {
-            return Convert.ToInt64(_quotient);
+            return Convert.ToInt64((double)(_devidend) / (double)(_divider));
         }
 
         sbyte IConvertible.ToSByte(IFormatProvider provider)
         {
-            return Convert.ToSByte(_quotient);
+            return Convert.ToSByte((double)(_devidend) / (double)(_divider));
         }
 
         float IConvertible.ToSingle(IFormatProvider provider)
         {
-            return Convert.ToSingle(_quotient);
+            return Convert.ToSingle((double)(_devidend) / (double)(_divider));
         }
 
         string IConvertible.ToString(IFormatProvider provider)
@@ -96,22 +93,22 @@ namespace RationalRepresentation
 
         object IConvertible.ToType(Type conversionType, IFormatProvider provider)
         {
-            return Convert.ChangeType(_quotient, conversionType);
+            return Convert.ChangeType((double)(_devidend) / (double)(_divider), conversionType);
         }
 
         ushort IConvertible.ToUInt16(IFormatProvider provider)
         {
-            return Convert.ToUInt16(_quotient);
+            return Convert.ToUInt16((double)(_devidend) / (double)(_divider));
         }
 
         uint IConvertible.ToUInt32(IFormatProvider provider)
         {
-            return Convert.ToUInt32(_quotient);
+            return Convert.ToUInt32((double)(_devidend) / (double)(_divider));
         }
 
         ulong IConvertible.ToUInt64(IFormatProvider provider)
         {
-            return Convert.ToUInt64(_quotient);
+            return Convert.ToUInt64((double)(_devidend) / (double)(_divider));
         }
 
         public int CompareTo(object obj)
@@ -119,9 +116,9 @@ namespace RationalRepresentation
             if (obj == null) return 1;
 
             Rational? otherRational = obj as Rational?;
-
+            double quotient = (double)(_devidend) / (double)(_divider);
             if (otherRational != null)
-                return this._quotient.CompareTo(otherRational.GetValueOrDefault().Quotient());
+                return quotient.CompareTo(otherRational.GetValueOrDefault().GetDevidend() / otherRational.GetValueOrDefault().GetDivider());
             else
                 throw new ArgumentException("Object is not a rational number");
         }
@@ -131,9 +128,9 @@ namespace RationalRepresentation
             if (obj == null) return false;
 
             Rational? otherRational = obj as Rational?;
-
+            double quotient = (double)(_devidend) / (double)(_divider);
             if (otherRational != null)
-                return this._quotient.Equals(otherRational.GetValueOrDefault().Quotient());
+                return quotient.Equals(otherRational.GetValueOrDefault().GetDevidend() / otherRational.GetValueOrDefault().GetDivider());
             else
                 throw new ArgumentException("Object is not a rational number");
         }
@@ -164,92 +161,98 @@ namespace RationalRepresentation
 
         public static bool operator !=(Rational rational1, float obj)
         {
-            return (Math.Abs(rational1._quotient - obj) != 0.000001);
+            return (Math.Abs((double)(rational1._devidend) / (double)(rational1._divider)- obj) > 0.000001);
         }
 
         public static bool operator ==(Rational rational1, float obj)
         {
-            return (Math.Abs(rational1._quotient - obj) == 0.000001);
+            return (Math.Abs((double)(rational1._devidend) / (double)(rational1._divider) - obj) < 0.000001);
         }
 
         public static bool operator >=(Rational rational1, float obj)
         {
-            return (rational1._quotient >= obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) >= obj);
         }
 
         public static bool operator <=(Rational rational1, float obj)
         {
-            return (rational1._quotient <= obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) <= obj);
         }
 
         public static bool operator >(Rational rational1, float obj)
         {
-            return (rational1._quotient > obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) > obj);
         }
 
         public static bool operator <(Rational rational1, float obj)
         {
-            return (rational1._quotient < obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) < obj);
         }
 
         public static bool operator !=(Rational rational1, double obj)
         {
-            return (Math.Abs(rational1._quotient - obj) != 0.000001);
+            return (Math.Abs((double)(rational1._devidend) / (double)(rational1._divider) - obj) > 0.000001);
         }
 
         public static bool operator ==(Rational rational1, double obj)
         {
-            return (Math.Abs(rational1._quotient - obj) != 0.000001);
+            return (Math.Abs((double)(rational1._devidend) / (double)(rational1._divider)- obj) < 0.000001);
         }
 
         public static bool operator >=(Rational rational1, double obj)
         {
-            return (rational1._quotient >= obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) >= obj);
         }
 
         public static bool operator <=(Rational rational1, double obj)
         {
-            return (rational1._quotient <= obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) <= obj);
         }
 
         public static bool operator >(Rational rational1, double obj)
         {
-            return (rational1._quotient > obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) > obj);
         }
 
         public static bool operator <(Rational rational1, double obj)
         {
-            return (rational1._quotient < obj);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) < obj);
         }
 
         public static bool operator !=(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient != rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) != 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static bool operator ==(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient == rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) == 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static bool operator >=(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient >= rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) >= 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static bool operator <=(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient <= rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) <= 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static bool operator >(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient > rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) > 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static bool operator <(Rational rational1, Rational rational2)
         {
-            return (rational1._quotient < rational2._quotient);
+            return ((double)(rational1._devidend) / (double)(rational1._divider) < 
+                                                    (double)(rational2._devidend) / (double)(rational2._divider));
         }
 
         public static Rational operator ++(Rational rational)
@@ -325,7 +328,8 @@ namespace RationalRepresentation
 
         public string ToStringFormat(int format)
         {
-            string temp = _quotient.ToString();
+            double quotient = (double)(_devidend) / (double)(_divider);
+            string temp = quotient.ToString();
             string result = "";
             int i = 0;
             while (temp[i] != ',' && temp[i] != '\0')
@@ -396,7 +400,7 @@ namespace RationalRepresentation
 
         public override int GetHashCode()
         {
-            return _quotient.GetHashCode();
+            return (_devidend / _divider).GetHashCode();
         }
         
         private static Rational FractionReduction(Rational result)
@@ -413,7 +417,6 @@ namespace RationalRepresentation
                     }
                 }
             }
-            result._quotient = (double)(result._devidend) / (double)(result._divider);
             return result;
         }
        
